@@ -13,17 +13,21 @@ body {
   margin: 0 auto;
 
 } */
+.header {
+  background-color: #000;
+}
 
 .nav-menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 30px 20px;
-  background-color: #000;
+
 }
 
 .nav-items {
   display: flex;
+  padding: 0 40px;
 }
 
 .nav-items a{
@@ -33,10 +37,12 @@ body {
 }
 
 .logo {
+  text-align: center;
   font-size: 3em;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--primary-color);
+  padding-top: 20px;
 }
 
 .btn {
@@ -83,6 +89,7 @@ body {
 .new-records {
   max-width: 1144px;
   margin: 40px auto;
+  padding: 10px;
 }
 
 .new-records h2 {
@@ -191,6 +198,7 @@ body {
 .wish-list {
   max-width: 1144px;
   margin: 40px auto;
+  padding: 10px;
 }
 
 .wish-list h2 {
